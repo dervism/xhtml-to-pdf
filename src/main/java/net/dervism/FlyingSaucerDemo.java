@@ -55,8 +55,6 @@ public class FlyingSaucerDemo {
      */
     public byte[] toPdf(String templatepath, Map<String, String> params) throws DocumentException, IOException, URISyntaxException {
 
-        // if resource streaming does not work then use this instead:
-        // String template = TemplateUtils.getPdfTemplate();
         InputStream resourceAsStream = this.getClass().getResourceAsStream(templatepath);
         String template = IOUtils.toString(resourceAsStream);
 
