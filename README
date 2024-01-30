@@ -1,1 +1,5 @@
-This file was created by IntelliJ IDEA 12.1.6 for binding GitHub repository
+XHTML to PDF.
+
+Uses the Flying Saucer PDF library:
+
+https://mvnrepository.com/artifact/org.xhtmlrenderer/flying-saucer-pdf
